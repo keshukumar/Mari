@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.marikiti">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.Marikiti"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.MyAccounts.Transporter_Activity"></activity>
+        <activity android:name=".activity.MyAccounts.Sale_Order_View_Deails_Activity" />
+        <activity android:name=".activity.MyShops.AddProduct.Bakery_Add_Product_Activity" />
+        <activity android:name=".activity.Add_Sub_Shop_Activity" />
+        <activity android:name=".activity.MyShops.Supermarket_Pharmacy_Cart_System" />
+        <activity android:name=".testing.TestActivity" />
+        <activity android:name=".testing.TestingActivity" />
+        <activity android:name=".activity.Local_Service_Activity" />
+        <activity android:name=".activity.MyShops.Multilple_Image_Upload_Activity" />
+        <activity android:name=".activity.MyShops.EditStock_Supermarket_Activity" />
+        <activity android:name=".activity.Outlet_and_Health_Subcategory_Activity" />
+        <activity
+            android:name=".activity.Cart_Activitty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Main_Other_List_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Outlet_And_Health_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.Trader_Shop_List_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TraderActiveShops"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Trader_shops_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Profile_upload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyShops.EditStock_ViewProduct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.MyShops.EditStock_ProductListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.Staff_ManageStaff_Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.Trader_Unregister_Residence"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.Trader_Residence_Detail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.Trader_Bussiness_DetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.MyAccounts.MassaiMarketActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.MyAccounts.MyAccount_OverDraftActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.MyShops.EditStock_AddProductActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.MyShops.MyShop_RegisterNewShopActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.MyAccounts.MyAccount_SalesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.MyAccounts.MyAccount_ApplyCredit"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.MyAccounts.MyAcccount_SendCredit"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.StaffPortalViewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.StaffPortalActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddTraderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddStaffActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddShopsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ShopDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TraderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletGirlsStoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletBoysStoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletBabyStoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletMenStoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletWomenStoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletComputerStoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletOfficeFurnitureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletJuakaliActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletLocalKioskActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletHomeFurnishingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutletKitchenWareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HealthAndBeautyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BuyInternetBundleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ApplyLoanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.RequestCreditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ViewTradersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.MyAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyShopsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.MyShopsDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyBalanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyBalanceWithdrawFundsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyBalanceSendCreditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyBalanceTransferFundsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.ViewPurchaseHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.SalesStatementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TotalProductSalesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.ViewNewOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ViewNewOrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.PendingOrdersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PendingOrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PendingCreditsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.MyCreditStatementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.MyLoanStatementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyCartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CheckoutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.MessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.MessageDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyAccounts.MessageReplyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyShops.EditStockActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EditBusinessLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TheOutlet2Activity"
+            android:screenOrientation="portrait" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

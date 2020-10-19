@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E583F</color>
+    <color name="colorPrimaryDark">#0E583F</color>
+    <color name="colorAccent">#D81B60</color>
+<color name="yellow">#F6C028</color>
+    <!--text color -->
+    <color name="colorBlack">#000000</color>
+    <color name="colorTextBlack">#000000</color>
+
+    <!--other color-->
+    <color name="colorsliderbackground">#339900</color>
+    <color name="colorWhiteTrasparent">#80FFFFFF</color>
+    <color name="colorSelected">#33000000</color>
+    <color name="colorTextGrey">#80000000</color>
+    <color name="colorGreen">#66cc00</color>
+
+    <color name="colorRed">#FFFF0000</color>
+    <color name="colorRead">#FFFF0000</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorGrayBorder">#C5C4C9</color>
+    <color name="colorNav">#f7f7f7</color>
+
+    <color name="gradientStart">@android:color/transparent</color>
+    <color name="gradientCenter">#0D0db6af</color>
+    <color name="gradientEnd">#990db6af</color>
+    <color name="colorRatingActive">#FFB119</color>
+    <color name="colorRatingInActive">#f7f7f7</color>
+    <color name="colorTabIndicator">#0FCEC6</color>
+
+    <color name="colorTextDark">#5E5E5E</color>
+    <color name="colorTextPrivacyPolicy">#00cc61</color>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <gautam.easydevelope.widget.GButton
+            android:id="@+id/btn_already_member_log_in"
+            style="@style/textHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn_transparent"
+            android:text="Enter Pin"
+            android:textColor="@color/colorPrimary" />
+
+
+        <gautam.easydevelope.widget.GEditText
+            android:id="@+id/et_enter_pin"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="9dp"
+            android:layout_toRightOf="@+id/iv_ic_email"
+            android:background="@drawable/bac_transparent"
+            android:hint="Enter your pin"
+            android:inputType="number"
+            android:lines="1"
+            android:paddingTop="12dp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrayBorder"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/rec_round_corner_borer_primary"
+                android:text="CANCEL"
+                android:textColor="@color/colorWhite" />
+
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/rec_round_corner_borer_primary"
+                android:text="OK"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

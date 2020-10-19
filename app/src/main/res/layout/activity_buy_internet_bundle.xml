@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_toolbar_home" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_plans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Data Plans"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_advertising"
+        android:layout_below="@+id/tv_plans"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/ll_nav_fruits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_1gb"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="1 GB"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_1gb"
+                    android:layout_marginLeft="16dp"
+                    android:text="KSH 99"
+                    android:textSize="13dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_1gb_activate"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/border_primary_round_corner"
+                    android:padding="6dp"
+                    android:text="Activate"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_nav_vegetables"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_500mb"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Daily 500MB"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_500mb"
+                    android:layout_marginLeft="16dp"
+                    android:text="KSH 99"
+                    android:textSize="13dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_500mb_activate"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/border_primary_round_corner"
+                    android:padding="6dp"
+                    android:text="Activate"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13dp" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/ll_nav_cereals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_150mb"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Daily 150MB"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_150mb"
+                    android:layout_marginLeft="16dp"
+                    android:text="KSH 50"
+                    android:textSize="13dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_150mb_activate"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/border_primary_round_corner"
+                    android:padding="6dp"
+                    android:text="Activate"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_nav_butchery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_50mb"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Daily 50MB"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_50mb"
+                    android:layout_marginLeft="16dp"
+                    android:text="KSH 20"
+                    android:textSize="13dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_50mb_activate"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/border_primary_round_corner"
+                    android:padding="6dp"
+                    android:text="Activate"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_nav_dairy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_15mb"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Daily 15MB"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_15mb"
+                    android:layout_marginLeft="16dp"
+                    android:text="KSH 10"
+                    android:textSize="13dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_15mb_activate"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/border_primary_round_corner"
+                    android:padding="6dp"
+                    android:text="Activate"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_nav_fishseafood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_7mb"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Daily 7MB"
+                    android:textColor="@color/colorBlack" />
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_7mb"
+                    android:layout_marginLeft="16dp"
+                    android:text="KSH 5"
+                    android:textSize="13dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_7mb_activate"
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/border_primary_round_corner"
+                    android:padding="6dp"
+                    android:text="Activate"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13dp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_advertising"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="bottom"
+            android:padding="10dip"
+            app:centered="true"
+            app:fillColor="#df0623"
+            app:pageColor="#fff"
+            app:snap="false" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

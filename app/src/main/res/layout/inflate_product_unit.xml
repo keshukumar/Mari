@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <Spinner
+            android:id="@+id/addproduct_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/items_duration_days"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="15sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:id="@+id/product_unit_price"
+            android:hint="Enter Unit Price"
+            android:padding="4dp"
+            android:background="@drawable/design_reactangle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/border_primary_round_corner"
+            android:id="@+id/product_unit_amount"
+            android:padding="4dp"
+            android:text="Ksh. 00.00"
+            />
+
+        <ToggleButton
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:id="@+id/product_unittoggle"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/toggle_buttton_background"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+</LinearLayout>

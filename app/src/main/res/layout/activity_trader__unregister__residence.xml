@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Trader_Unregister_Residence">
+
+    <include layout="@layout/app_toolbar_home" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                >
+                <gautam.easydevelope.widget.GCircularImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/design_circle"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/iv_trader_unregister_pic"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    android:layout_below="@+id/iv_trader_unregister_pic"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:id="@+id/btn_trader_unregister_profilepic"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/btn_transparent"
+                            android:gravity="center"
+                            android:text="Profile Pic"
+                            android:layout_weight="1"
+                            android:src="@drawable/icon_storage"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="17dp" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Storage"
+                            android:textAlignment="center"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="#333"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+
+
+                        <ImageView
+                            android:id="@+id/btn_trader_unregister_camerapic"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/btn_transparent"
+                            android:gravity="center"
+                            android:src="@drawable/icon_camera"
+                            android:layout_weight="1"
+                            android:text="Camera Pic"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Camera"
+                            android:textAlignment="center"
+                            android:textColor="#333"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="35dp"
+                android:text="Confirmation of User Address"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner">
+
+                <Spinner
+                    android:id="@+id/spn_county"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/countries_array" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner">
+
+                <Spinner
+                    android:id="@+id/spn_constituency"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/items_consituency" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner">
+
+                <Spinner
+                    android:id="@+id/spn_ward"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/items_ward" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Enter Road or Street"
+                    android:inputType="text"
+                    android:paddingTop="8dp"
+                    android:id="@+id/reg_street"
+                    android:paddingBottom="8dp"
+                    android:textAllCaps="true"
+                    android:textColorHint="@color/colorBlack"
+                    android:textSize="15sp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:background="@android:color/transparent"
+                    android:hint="House Name"
+                    android:inputType="textPhonetic"
+                    android:paddingTop="8dp"
+                    android:id="@+id/reg_house_name"
+                    android:paddingBottom="8dp"
+                    android:textAllCaps="true"
+                    android:textColorHint="@color/colorBlack"
+                    android:textSize="15sp"
+                     />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:background="@android:color/transparent"
+                    android:hint="House Number"
+                    android:inputType="textPhonetic"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:id="@+id/reg_house_number"
+                    android:textAllCaps="true"
+                    android:textColorHint="@color/colorBlack"
+                    android:textSize="15sp"
+                   />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/type"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Image"
+                        android:id="@+id/image"
+                        android:checked="true"
+                        android:layout_weight="1"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PDF"
+                        android:id="@+id/pdf"
+                        android:layout_weight="1"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Word File"
+                        android:id="@+id/wordfile"
+                        android:layout_weight="1"/>
+                </RadioGroup>
+
+
+                <Button
+
+                    android:id="@+id/btn_trader_unregister_idcard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_transparent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Attach Copy of ID. Card"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/yellow"
+                    android:id="@+id/cb_trader_unregister_terms"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Accept Terms &amp; Conditions  (View Terms &amp; Conditions)"/>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="75dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#F6C028"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp">
+
+                <Button
+                    android:id="@+id/btn_trader_unreigster_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_transparent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Register"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            >
+            <ProgressBar
+                android:layout_width="40dp"
+                android:layout_centerInParent="true"
+                android:layout_height="40dp"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:id="@+id/cart_sub_image"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+         android:id="@+id/cart_sub_name"
+            android:gravity="center"
+            android:lines="2"
+            android:layout_gravity="center"
+            android:textColor="@color/colorBlack"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

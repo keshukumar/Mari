@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".activity.MyAccounts.MyAcccount_SendCredit">
+    <include layout="@layout/app_toolbar_home"></include>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/border_round_corner"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <gautam.easydevelope.widget.GEditText
+                android:textAlignment="center"
+                android:textColor="@color/colorTextBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:hint="Enter Phone Number"
+                android:inputType="number"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textAllCaps="true"
+                android:textColorHint="@color/colorTextBlack"
+                android:textSize="15sp"
+                app:g_font="@string/roboto_regular" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="12dp"
+
+            android:background="@drawable/border_round_corner"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <gautam.easydevelope.widget.GEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:hint="Enter Marikiti Number"
+                android:inputType="number"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorTextBlack"
+                android:textSize="15sp"
+                app:g_font="@string/roboto_regular" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="12dp"
+
+            android:background="@drawable/border_round_corner"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <gautam.easydevelope.widget.GEditText
+                android:textAlignment="center"
+                android:textColor="@color/colorTextBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:hint=" Enter the Amount."
+                android:inputType="number"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textAllCaps="true"
+                android:textColorHint="@color/colorTextBlack"
+                android:textSize="15sp"
+                app:g_font="@string/roboto_regular" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="12dp"
+
+            android:background="@drawable/border_round_corner"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <gautam.easydevelope.widget.GEditText
+                android:textAlignment="center"
+                android:textColor="@color/colorTextBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:background="@android:color/transparent"
+                android:hint="Enter App pin number"
+                android:inputType="number"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textAllCaps="true"
+                android:textColorHint="@color/colorTextBlack"
+                android:textSize="15sp"
+                app:g_font="@string/roboto_regular" />
+
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="70dp"
+            app:cardBackgroundColor="#F6C028"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="0dp">
+
+            <gautam.easydevelope.widget.GButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_transparent"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Send"
+                android:textColor="@color/colorBlack"
+                android:textSize="18dp" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

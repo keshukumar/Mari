@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorTextBlack"
+        android:text="Phone Number Validation"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/border_round_corner">
+
+        <Spinner
+         android:id="@+id/sp_trader_country"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/countries_array" />
+
+    </LinearLayout><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="35dp"
+    android:id="@+id/phone_layout"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/border_round_corner"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="6dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:background="@android:color/transparent"
+        android:id="@+id/phone"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:maxLines="1"
+        android:textAllCaps="true"
+        android:textColorHint="@color/colorBlack"
+        android:textSize="15sp"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:id="@+id/code_layout"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_round_corner"
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <gautam.easydevelope.widget.GEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@android:color/transparent"
+            android:hint="Enter Four Digit Security Code"
+            android:inputType="text"
+            android:id="@+id/et_trader_unregister_otp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="15sp"
+            app:g_font="@string/roboto_regular" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+         android:layout_gravity="center"
+        android:id="@+id/validate_layout"
+
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="#F6C028"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="0dp">
+
+        <gautam.easydevelope.widget.GButton
+            android:id="@+id/btn_trader_unregister_otp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_transparent"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Validate Phone Number"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+        android:id="@+id/validate_code"
+        app:cardBackgroundColor="#F6C028"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="0dp">
+
+        <gautam.easydevelope.widget.GButton
+            android:id="@+id/btn_trader_unregister_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_transparent"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Validate Security Code"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

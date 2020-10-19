@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/nav_drawer_ll_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/marikiti" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_nav_my_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/my_profile_50"
+                    android:layout_height="36dp" />
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="16dp"
+                    android:text="My Profile"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_nav_my_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/my_account_50"/>
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="My Account"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_nav_my_shop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/my_shop_50"
+                    android:layout_height="36dp" />
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="My Shop"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_nav_view_balance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/my_balance_50"
+                    android:layout_height="36dp" />
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="My Balance"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_nav_request_credit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/request_credit_50"
+                    android:layout_height="36dp" />
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="Request Overdraft"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_nav_apply_loan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/apply_loan_50"
+                    android:layout_height="36dp" />
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="Apply Loan"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_nav_buy_bundles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:layout_marginTop="4dp"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/buy_internet_bundle_50"
+                    android:layout_height="36dp" />
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="Buy Internet Bundles"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_nav_view_trader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/view_traders_50"
+                    android:layout_height="36dp" />
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="View Traders"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_nav_add_trader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/add_trader_50"
+                    android:layout_height="36dp" />
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="Add Trader"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_nav_add_staff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/add_staff_50"
+                    android:layout_height="36dp" />
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="Staff Portal"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_nav_setting_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/settings_50"
+                    android:layout_height="36dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/setting_privacy"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_nav_help_center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/help_50"
+                    android:layout_height="36dp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="Customer Care"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_nav_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGrayBorder"
+                android:clickable="true"
+                android:visibility="gone"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:src="@drawable/logout_50"
+                    android:layout_height="36dp" />
+
+
+                <gautam.easydevelope.widget.GTextView
+                    style="@style/textHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:text="Logout"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_product_detail_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_toolbar_home" />
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_round_corner"
+                android:padding="8dp"
+                android:text="July 2019"
+                android:textColor="@color/colorBlack" />
+
+            <LinearLayout
+                android:id="@+id/ll_setup_payment_business"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+
+                android:orientation="vertical"
+                android:background="@drawable/border_round_corner">
+
+                <Spinner
+                    android:id="@+id/spn_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/items_shops"
+                    android:paddingTop="8dp"
+                    android:visibility="gone"
+                    android:paddingBottom="8dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Papa Jo Pizza"
+                    android:gravity="center"
+                    android:textColor="@color/colorTextBlack"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tv_total_purchase"
+                android:padding="6dp"
+                android:text="Current Loan Balance:"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tv_total_purchase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="6dp"
+                android:text="Ksh.25,000.00" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_no_trader_found"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/add_toolbar"
+            android:gravity="center"
+            android:text="No Trader found "
+            android:visibility="gone" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/rl_mains"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorTextBlack"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:text="Wed 26"/>
+
+                <LinearLayout
+                    android:id="@+id/ll_trader_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="1"
+                    android:layout_toRightOf="@+id/img_pImage"
+                    android:orientation="vertical"/>
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Credit"
+                    android:layout_weight="1.5"
+android:gravity="center"
+                    android:textColor="@color/colorTextBlack"
+                    android:textSize="15sp" />
+
+                <gautam.easydevelope.widget.GTextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Debit"
+                    android:gravity="end"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/colorTextBlack"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="150dp"
+            android:layout_gravity="end"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/rl_mains"
+            android:background="@color/colorTextDark"></View>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_viewloan_statement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:nestedScrollingEnabled="true">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

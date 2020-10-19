@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_toolbar_home" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="Business Location Details"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner">
+
+                <Spinner
+                    android:id="@+id/spn_county"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/items_county" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner">
+
+                <Spinner
+                    android:id="@+id/spn_constituency"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/items_consituency" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner">
+
+                <Spinner
+                    android:id="@+id/spn_ward"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/items_ward" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <gautam.easydevelope.widget.GEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Street"
+                    android:inputType="text"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:textAllCaps="true"
+                    android:textColorHint="@color/colorBlack"
+                    android:textSize="15sp"
+                    app:g_font="@string/roboto_regular" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/border_round_corner"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <gautam.easydevelope.widget.GEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:background="@android:color/transparent"
+                    android:hint=" Business House Number"
+                    android:inputType="textPhonetic"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:textAllCaps="true"
+                    android:textColorHint="@color/colorBlack"
+                    android:textSize="15sp"
+                    app:g_font="@string/roboto_regular" />
+
+            </LinearLayout>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="18dp"
+                app:cardBackgroundColor="#F6C028"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="0dp">
+
+                <gautam.easydevelope.widget.GButton
+                    android:id="@+id/btn_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_transparent"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Finish"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

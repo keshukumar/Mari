@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/app_toolbar_home"></include>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/rl_update"
+                android:orientation="vertical">
+
+                <gautam.easydevelope.widget.GCircularImageView
+                    android:id="@+id/img_profile_pics"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_marginTop="24dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_camera"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/ic_photo_camera" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+
+
+                    <gautam.easydevelope.widget.GTextView
+                        android:id="@+id/pr_et_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:focusableInTouchMode="false"
+                        android:hint="Name"
+                        android:inputType="text"
+                        android:padding="12dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text=""
+                        android:textAllCaps="true"
+                        android:textSize="15sp"
+                        app:g_font="@string/roboto_regular" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+
+                    <gautam.easydevelope.widget.GTextView
+                        android:id="@+id/pr_et_id_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:focusable="false"
+                        android:hint="Id Number"
+                        android:inputType="text"
+                        android:padding="12dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text=""
+                        android:textSize="15sp"
+                        app:g_font="@string/roboto_regular" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+
+                    <gautam.easydevelope.widget.GTextView
+                        android:id="@+id/pr_et_date_of_birth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:focusableInTouchMode="false"
+                        android:hint="Date of Birth"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:padding="12dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text=""
+                        android:textSize="15sp"
+                        app:g_font="@string/roboto_regular" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+
+                    <gautam.easydevelope.widget.GEditText
+                        android:id="@+id/pr_et_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/pr_img_edit_email"
+                        android:background="@android:color/transparent"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+
+                        android:padding="12dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text=""
+                        android:textSize="15sp"
+                        app:g_font="@string/roboto_regular" />
+
+                    <gautam.easydevelope.widget.GImageView
+                        android:id="@+id/pr_img_edit_email"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/edit" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+
+                    <gautam.easydevelope.widget.GEditText
+                        android:id="@+id/pr_et_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/img_mobile"
+                        android:background="@android:color/transparent"
+                        android:hint="Phone Number"
+                        android:inputType="number"
+                        android:padding="12dp"
+                        android:maxLength="14"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:text=""
+                        android:textSize="15sp"
+                        app:g_font="@string/roboto_regular" />
+
+                    <gautam.easydevelope.widget.GImageView
+                        android:id="@+id/img_mobile"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/edit" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+                    <Spinner
+                        android:id="@+id/spn_county"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+
+                    <Spinner
+                        android:id="@+id/spn_constituency"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+
+                    <Spinner
+                        android:id="@+id/spn_ward"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+
+                    <gautam.easydevelope.widget.GEditText
+                        android:id="@+id/reg_street"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:background="@android:color/transparent"
+                        android:hint="Enter Road or Street"
+                        android:inputType="text"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:textAllCaps="true"
+                        android:textColorHint="@color/colorBlack"
+                        android:textSize="15sp"
+                        app:g_font="@string/roboto_regular" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+
+                    <gautam.easydevelope.widget.GEditText
+                        android:id="@+id/reg_house_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:background="@android:color/transparent"
+                        android:hint="House Name"
+                        android:inputType="textPhonetic"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:textAllCaps="true"
+                        android:textColorHint="@color/colorBlack"
+                        android:textSize="15sp"
+                        app:g_font="@string/roboto_regular" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/border_round_corner"
+                    android:padding="4dp">
+
+                    <gautam.easydevelope.widget.GEditText
+                        android:id="@+id/reg_house_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:background="@android:color/transparent"
+                        android:hint="House Number"
+                        android:inputType="textPhonetic"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:textAllCaps="true"
+                        android:textColorHint="@color/colorBlack"
+                        android:textSize="15sp"
+                        app:g_font="@string/roboto_regular" />
+
+                </RelativeLayout>
+
+
+
+
+                <!--                <RelativeLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="50dp"-->
+                <!--                    android:layout_marginLeft="15dp"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_marginRight="15dp"-->
+                <!--                    android:background="@drawable/border_round_corner"-->
+                <!--                    android:padding="4dp">-->
+
+                <!--                    <gautam.easydevelope.widget.GEditText-->
+                <!--                        android:id="@+id/et_change_pin"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_alignParentTop="true"-->
+                <!--                        android:layout_toLeftOf="@+id/img_edit_pwd"-->
+                <!--                        android:background="@android:color/transparent"-->
+                <!--                        android:focusableInTouchMode="false"-->
+                <!--                        android:hint="Change Pin"-->
+                <!--                        android:inputType="textPassword"-->
+                <!--                        android:padding="12dp"-->
+                <!--                        android:paddingTop="8dp"-->
+                <!--                        android:paddingBottom="8dp"-->
+                <!--                        android:textSize="15sp"-->
+                <!--                        app:g_font="@string/roboto_regular" />-->
+
+                <!--                    <gautam.easydevelope.widget.GImageView-->
+                <!--                        android:id="@+id/img_edit_pwd"-->
+                <!--                        android:layout_width="20dp"-->
+                <!--                        android:layout_height="20dp"-->
+                <!--                        android:layout_alignParentRight="true"-->
+                <!--                        android:layout_centerVertical="true"-->
+                <!--                        android:layout_marginLeft="15dp"-->
+                <!--                        android:src="@drawable/edit" />-->
+
+                <!--                </RelativeLayout>-->
+
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="70dp"
+                    app:cardBackgroundColor="#F6C028"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="0dp">
+
+                    <gautam.easydevelope.widget.GButton
+                        android:id="@+id/btn_update"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/btn_transparent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Update"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

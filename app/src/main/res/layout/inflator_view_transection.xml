@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextBlack"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:text="Wed 26"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/rl_mains"
+        android:background="@color/colorTextDark"></View>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_mains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal">
+
+        <gautam.easydevelope.widget.GCircularImageView
+            android:id="@+id/img_pImage"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/man" />
+
+        <LinearLayout
+            android:id="@+id/ll_trader_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/img_pImage"
+            android:orientation="vertical">
+
+            <gautam.easydevelope.widget.GTextView
+                android:id="@+id/tv_trader_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Trader Name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14dp" />
+
+            <gautam.easydevelope.widget.GTextView
+                android:id="@+id/tv_trader_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="001"
+                android:textColor="@color/colorTextDark"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/ll_trader_name"
+            android:orientation="vertical">
+
+            <gautam.easydevelope.widget.GTextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="Product Name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14dp" />
+
+            <gautam.easydevelope.widget.GTextView
+                android:id="@+id/tv_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="location"
+                android:textColor="@color/colorTextDark"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <gautam.easydevelope.widget.GTextView
+                android:id="@+id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="25.00"
+                android:textColor="@color/colorTextDark"
+                android:textSize="13sp" />
+
+            <gautam.easydevelope.widget.GTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/colorTextDark"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:weightSum="4"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Track Order"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextBlack"
+            android:layout_weight="1"
+            android:lines="2"
+            android:layout_margin="5dp"
+            android:paddingTop="8dp"
+            android:textSize="14sp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/design_reactangle"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Rate Trader"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextBlack"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:lines="2"
+            android:layout_margin="5dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/design_reactangle"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:background="@drawable/design_reactangle"
+            android:paddingTop="8dp"
+            android:textColor="@color/colorTextBlack"
+            android:paddingBottom="8dp"
+            android:textAlignment="center"
+            android:lines="2"
+            android:text="Return this Item" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Receive Item"
+            android:textColor="@color/colorTextBlack"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="14sp"
+            android:lines="2"
+            android:textAlignment="center"
+            android:background="@drawable/design_reactangle"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="#fff"
+    tools:context=".activity.StaffPortalViewActivity">
+    <include layout="@layout/app_toolbar_home" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:visibility="gone"
+        android:id="@+id/trader_layout"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:textColor="#333"
+            android:padding="10dp"
+            android:id="@+id/massage"
+            android:drawableTop="@drawable/icon_message"
+            android:textStyle="bold"
+            android:text="To Access Staff Portal, you must be an employee of Intelligent Contacts Solutions Ltd"></TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/stafflayout">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:gravity="center_horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="@color/colorTextBlack"
+                    android:textSize="16dp"
+                    android:text="July 2019"
+                    android:background="@drawable/border_round_corner"
+
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:background="@drawable/border_round_corner"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+
+                        android:text="Region:"
+                        android:textColor="@color/colorTextBlack"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        style="@android:style/TextAppearance.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:text="Nairobi"
+                        android:textColor="@color/colorTextBlack"
+                        android:textSize="16dp" />
+
+
+
+                    <TextView
+                        style="@android:style/TextAppearance.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:text="Westlands"
+                        android:textColor="@color/colorTextBlack"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <TableLayout
+                android:layout_marginTop="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow  android:background="@drawable/border_round_corner"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    >
+
+                    <TextView
+                        android:text="Total Regional Sales:"
+                        android:textColor="@color/colorTextBlack"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:text="Ksh.900,000.00"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorTextBlack"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow        android:background="@drawable/border_round_corner"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:textColor="@color/colorTextBlack"
+                        android:textSize="16sp"
+                        android:text="Regional Sales Target:"/>
+                    <TextView
+                        android:text="Ksh.1,900,000.00"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorTextBlack"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <TableRow        android:background="@drawable/border_round_corner"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:textColor="@color/colorTextBlack"
+                        android:textSize="16sp"
+                        android:text="Total No. of Traders:"/>
+                    <TextView
+                        android:text="12,000"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorTextBlack"
+                        android:gravity="end"/>
+                </TableRow>
+                <TableRow        android:background="@drawable/border_round_corner"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:textColor="@color/colorTextBlack"
+                        android:textSize="16sp"
+                        android:text="July Gross Salary:"/>
+                    <TextView
+                        android:text="Ksh.90,000.00"
+                        android:layout_weight="1"
+                        android:textSize="15dp"
+                        android:textColor="@color/colorTextBlack"
+                        android:gravity="end"/>
+                </TableRow>
+            </TableLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/ll_personal_account_views"
+                android:orientation="vertical"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/bs_img1"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/activate_account" />
+
+                    <ImageView
+                        android:id="@+id/bs_img2"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/add_shop" />
+
+                    <ImageView
+                        android:id="@+id/bs_img3"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/add_trader" />
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/bs_img4"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/file_report" />
+
+
+                    <ImageView
+                        android:id="@+id/bs_img5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/gross_sales_statement" />
+
+                    <ImageView
+                        android:id="@+id/bs_img6"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/manage_staff" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/bs_img7"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/messages" />
+
+
+                    <ImageView
+                        android:id="@+id/bs_img8"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/order_merchandise" />
+
+                    <ImageView
+                        android:id="@+id/bs_img9"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/process_biz_loan" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/bs_img10"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/read_report" />
+
+
+                    <ImageView
+                        android:id="@+id/bs_img11"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/sales_statement" />
+
+                    <ImageView
+                        android:id="@+id/bs_img12"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/suspend_account" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/bs_img13"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/view_field_agents" />
+
+
+                    <ImageView
+                        android:id="@+id/bs_img14"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/view_traders" />
+
+                    <ImageView
+                        android:id="@+id/bs_img15"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                      />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

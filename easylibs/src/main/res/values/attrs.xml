@@ -1,0 +1,9 @@
+<resources>
+    // GTextView Styleable
+    <declare-styleable name="GTextView">
+        // font value define
+        <attr name="g_font" format="string" ></attr>
+    </declare-styleable>
+
+
+</resources>

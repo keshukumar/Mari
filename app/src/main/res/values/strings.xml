@@ -1,0 +1,1891 @@
+<resources>
+    <string name="app_name">Marikiti</string>
+
+    <string name="internet_error_message">Internet connection error</string>
+    <string name="enter_email_address">Enter your registered user_email</string>
+    <string name="mandatory">Mandatory</string>
+    <string name="by_clicking_on_sign_up_you_agree_to">Accept Survey Polling\ s</string>
+    <string name="terms_and_privacy_policy">Terms and Privacy Policy</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="already_registered">Already registered</string>
+    <string name="registration_failed">Registration failed</string>
+    <string name="registration_failed_message">Failed to register! Try again</string>
+    <string name="required">Required</string>
+    <string name="invalid_email">Invalid user_email pattern</string>
+    <string name="invalid_number">Invalid number</string>
+    <string name="invalid_format">Number should start with 04</string>
+    <string name="invalid_pass">Password shoud be min 6 digit</string>
+    <string name="password_did_not_match">Password did not match.</string>
+
+    <string name="frag1">HOME</string>
+    <string name="frag2">CREATE POST</string>
+    <string name="frag3">PROFILE</string>
+
+    <string name="health_beauty">Health &amp; Beauty</string>
+    <string name="fish_sea_food">Fish &amp; Sea Food</string>
+    <string name="setting_privacy">Setting &amp; Privacy</string>
+    <string name="including_interest">Including interest at 9% APR &amp; Fees</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="items_employement">
+        <item>Select Employement</item>
+        <item>Employed</item>
+        <item>Self Employed</item>
+        <item>Unemployed</item>
+    </string-array>
+
+    <string-array name="prefernce">
+        <item>Normal</item>
+        <item>Mild</item>
+        <item>Hot</item>
+        <item>Extra Hot</item>
+
+    </string-array>
+
+    <string-array name="size">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>Extra Large</item>
+    </string-array>
+    <string-array name="mode">
+        <item>Collect</item>
+        <item>Deliver</item>
+        <item>Post</item>
+    </string-array>
+
+
+    <string-array name="items_duration_days">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+
+    <string-array name="items_duration_months">
+        <item>Duration</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="items_shops">
+        <item>My Shops</item>
+        <item>Fruits</item>
+        <item>Dairy</item>
+        <item>Papa zo Pizza</item>
+    </string-array>
+
+    <string-array name="items_quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="items_payment_method">
+        <item>Payment Method</item>
+        <item>Marikiti Account</item>
+        <item>Pay on Delivery</item>
+        <item>Mpesa</item>
+        <item>Airtel Money</item>
+        <item>Eazzy Pay</item>
+        <item>Debit Card</item>
+        <item>Credit Card</item>
+    </string-array>
+
+    <string-array name="items_new_message_opt">
+        <item>Select Type</item>
+        <item>Customer Care</item>
+        <item>Field Agent</item>
+        <item>Favourite Clients Broadcast</item>
+        <item>My Orders</item>
+    </string-array>
+
+    <string-array name="items_county">
+        <item>Select County</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string-array name="items_street">
+        <item>Select Street</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="items_house_number">
+        <item>Select House Number</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="items_business_number">
+        <item>Select Business Number</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="countries_array">
+        <item>Select Your Country</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Ascension Island</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burma (Myanmar)</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos (Keeling) Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Congo</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Diego Garcia</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Guiana</item>
+        <item>French Polynesia</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Holy See (Vatican City)</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Martinique</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolk Island</item>
+        <item>North Korea</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palestine</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn Islands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Republic of the Congo</item>
+        <item>Reunion Island</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Barthelemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Sint Maarten</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+
+    </string-array>
+    <string-array name="items_consituency">
+        <item>Select Constituency</item>
+        <item>BALAMBALA</item>
+        <item>BANISSA</item>
+        <item>BURA</item>
+        <item>CHANGAMWE</item>
+        <item>DADAAB</item>
+        <item>ELDAS</item>
+        <item>FAFI</item>
+        <item>GALOLE</item>
+        <item>GANZE</item>
+        <item>GARISSA TOWNSHIP</item>
+        <item>GARSEN</item>
+        <item>IJARA</item>
+        <item>JOMVU</item>
+        <item>KALOLENI</item>
+        <item>KILIFI NORTH</item>
+        <item>KILIFI SOUTH</item>
+        <item>KINANGO</item>
+        <item>KISAUNI</item>
+        <item>LAFEY</item>
+        <item>LAGDERA</item>
+        <item>LAISAMIS</item>
+        <item>LAMU EAST</item>
+        <item>LAMU WEST</item>
+        <item>LIKONI</item>
+        <item>LUNGA LUNGA</item>
+        <item>MAGARINI</item>
+        <item>MALINDI</item>
+        <item>MANDERA EAST</item>
+        <item>MANDERA NORTH</item>
+        <item>MANDERA SOUTH</item>
+        <item>MANDERA WEST</item>
+        <item>MATUGA</item>
+        <item>MOYALE</item>
+        <item>MSAMBWENI</item>
+        <item>MVITA</item>
+        <item>MWATATE</item>
+        <item>NORTH HORR</item>
+        <item>NYALI</item>
+        <item>RABAI</item>
+        <item>SAKU</item>
+        <item>TARBAJ</item>
+        <item>TAVETA</item>
+        <item>VOI</item>
+        <item>WAJIR EAST</item>
+        <item>WAJIR NORTH</item>
+        <item>WAJIR SOUTH</item>
+        <item>WAJIR WEST</item>
+        <item>WUNDANYI</item>
+
+    </string-array>
+
+    <string-array name="items_ward">
+        <item>Select Ward</item>
+        <item>PORT REITZ</item>
+        <item>KAGAN</item>
+        <item>ABAKAILE</item>
+        <item>ABOGETA EAST</item>
+        <item>ABOGETA WEST</item>
+        <item>ABOTHUGUCHI CENTRAL</item>
+        <item>ABOTHUGUCHI WEST</item>
+        <item>ADEMASAJIDE</item>
+        <item>ADU</item>
+        <item>AGENG A NANGUBA</item>
+        <item>AGUTHI-GAAKI</item>
+        <item>AHERO</item>
+        <item>AINABKOI-OLARE</item>
+        <item>AINAMOI</item>
+        <item>AIRBASE</item>
+        <item>AIRPORT</item>
+        <item>AKACHIU</item>
+        <item>AKIRANG ONDU</item>
+        <item>AKITHII</item>
+        <item>ALALE</item>
+        <item>ALUNGO GOF</item>
+        <item>AMALO</item>
+        <item>AMUKURA CENTRAL</item>
+        <item>AMUKURA EAST</item>
+        <item>AMUKURA WEST</item>
+        <item>AMWATHI</item>
+        <item>ANGATA BARIKOI</item>
+        <item>ANGATA NAYOKIE</item>
+        <item>ANG OROM</item>
+        <item>ANG URA EAST</item>
+        <item>ANG URAI NORTH</item>
+        <item>ANG URAI SOUTH</item>
+        <item>ANTUAMBUI</item>
+        <item>ANTUBETWE KIONGO</item>
+        <item>ARABIA</item>
+        <item>ARBAJAHAN</item>
+        <item>ARROR</item>
+        <item>ASHABITO</item>
+        <item>ATHI RIVER</item>
+        <item>ATHI</item>
+        <item>ATHIRU GAITI</item>
+        <item>ATHIRU RUUJINE</item>
+        <item>ATHWANA</item>
+        <item>AWASI-ONJIKO</item>
+        <item>BAAWA</item>
+        <item>BABANDOGO</item>
+        <item>BAHARI</item>
+        <item>BAHATI</item>
+        <item>BALAMBALA</item>
+        <item>BAMBA</item>
+        <item>BAMBURI</item>
+        <item>BANGALE</item>
+        <item>BANISSA</item>
+        <item>BANJA</item>
+        <item>BARAGWI</item>
+        <item>BARAKI</item>
+        <item>BARTABWA</item>
+        <item>BARUT</item>
+        <item>BARWAGO</item>
+        <item>BARWESSA</item>
+        <item>BASI CENTRAL</item>
+        <item>BASSI BOGETAORIO</item>
+        <item>BASUBA</item>
+        <item>BATALU</item>
+        <item>BATEI</item>
+        <item>BENANE</item>
+        <item>BENANE</item>
+        <item>BIASHARA</item>
+        <item>BIASHARA</item>
+        <item>BIASHARA</item>
+        <item>BIBIRIONI</item>
+        <item>BIDII</item>
+        <item>BIRONGO</item>
+        <item>BOBARACHO</item>
+        <item>BOBASI CHACHE</item>
+        <item>BOBASI-BOITANGARE</item>
+        <item>BOFU</item>
+        <item>BOGEKA</item>
+        <item>BOGETENGA</item>
+        <item>BOGIAKUMU</item>
+        <item>BOGICHORA</item>
+        <item>BOGUSERO</item>
+        <item>BOIKANGA</item>
+        <item>BOITO</item>
+        <item>BOKEIRA</item>
+        <item>BOKIMONGE</item>
+        <item>BOKOLI</item>
+        <item>BOMANI</item>
+        <item>BOMARIBA</item>
+        <item>BOMBABA BORABU</item>
+        <item>BOMORENDA</item>
+        <item>BOMWAGAMO</item>
+        <item>BONYAMATUTA</item>
+        <item>BOOCHI BORABU</item>
+        <item>BOOCHI-TENDERE</item>
+        <item>BORABU/CHITAGO</item>
+        <item>BOSAMARO</item>
+        <item>BOSOTI-SENGERA</item>
+        <item>BUKEMBE EAST</item>
+        <item>BUKEMBE WEST</item>
+        <item>BUKHAYO CENTRAL</item>
+        <item>BUKHAYO EAST</item>
+        <item>BUKHAYO NORTH-WALATSI</item>
+        <item>BUKHAYO WEST</item>
+        <item>BUKIRA CENTRAL-IKEREGE</item>
+        <item>BUKIRA EAST</item>
+        <item>BULLA MPYA</item>
+        <item>BULLA PESA</item>
+        <item>BUMULA</item>
+        <item>BUNYALA CENTRAL</item>
+        <item>BUNYALA CENTRAL</item>
+        <item>BUNYALA EAST</item>
+        <item>BUNYALA NORTH</item>
+        <item>BUNYALA SOUTH</item>
+        <item>BUNYALA WEST</item>
+        <item>BUNYALA WEST</item>
+        <item>BURA</item>
+        <item>BURA</item>
+        <item>BURAT</item>
+        <item>BURDER</item>
+        <item>BURUMBA</item>
+        <item>BUSALI</item>
+        <item>BUSIBWABO</item>
+        <item>BUTALI-CHEGULO</item>
+        <item>BUTE</item>
+        <item>BUTIYE</item>
+        <item>BUTSOTSO CENTRAL</item>
+        <item>BUTSOTSO EAST</item>
+        <item>BUTSOTSO SOUTH</item>
+        <item>BWAKE-LUUYA</item>
+        <item>BWIRI</item>
+        <item>CALIFORNIA</item>
+        <item>CENTRAL ALEGO</item>
+        <item>CENTRAL BUNYORE</item>
+        <item>CENTRAL GEM</item>
+        <item>CENTRAL KAMAGAMBO</item>
+        <item>CENTRAL KANYAMKAGO</item>
+        <item>CENTRAL KASIPUL</item>
+        <item>CENTRAL KISUMU</item>
+        <item>CENTRAL MARAGOLI</item>
+        <item>CENTRAL NYAKACH</item>
+        <item>CENTRAL SAKWA</item>
+        <item>CENTRAL SAKWA</item>
+        <item>CENTRAL SEME</item>
+        <item>CENTRAL</item>
+        <item>CENTRAL</item>
+        <item>CENTRAL</item>
+        <item>CENTRAL</item>
+        <item>CHAANI</item>
+        <item>CHAIK</item>
+        <item>CHAKOL NORTH</item>
+        <item>CHAKOL SOUTH</item>
+        <item>CHALA</item>
+        <item>CHANGAMWE</item>
+        <item>CHANIA</item>
+        <item>CHARAGITA</item>
+        <item>CHARI</item>
+        <item>CHASIMBA</item>
+        <item>CHAVAKALI</item>
+        <item>CHAWIA</item>
+        <item>CHEBOIN</item>
+        <item>CHEBUNYO</item>
+        <item>CHEKALINI</item>
+        <item>CHEMAGEL</item>
+        <item>CHEMANER</item>
+        <item>CHEMELIL</item>
+        <item>CHEMELIL-CHEMASE</item>
+        <item>CHEMOSOT</item>
+        <item>CHEMUCHE</item>
+        <item>CHEMUNDU-KAPNG ETUNYI</item>
+        <item>CHENGONI/SAMBURU</item>
+        <item>CHEPARERIA</item>
+        <item>CHEPCHABAS</item>
+        <item>CHEPCHOINA</item>
+        <item>CHEPKORIO</item>
+        <item>CHEPKUMIA</item>
+        <item>CHEPKUNYUK</item>
+        <item>CHEPLANGET</item>
+        <item>CHEPSEON</item>
+        <item>CHEPSIRO-KIPTOROR</item>
+        <item>CHEPTAIS</item>
+        <item>CHEPTERWAI</item>
+        <item>CHEPTIRET-KIPCHAMO</item>
+        <item>CHEPTORORIET-SERETUT</item>
+        <item>CHEPYUK</item>
+        <item>CHERAB</item>
+        <item>CHERANG ANY-CHEBORORWA</item>
+        <item>CHERANGANY-SUWERWA</item>
+        <item>CHESIKAKI</item>
+        <item>CHESOEN</item>
+        <item>CHEVAYWA</item>
+        <item>CHEWANI</item>
+        <item>CHEWELE</item>
+        <item>CHIAKAGIRA</item>
+        <item>CHILCHILA</item>
+        <item>CHINGA</item>
+        <item>CHOGORIA</item>
+        <item>CHULUNI</item>
+        <item>CHURO-AMAYA</item>
+        <item>CIANDA</item>
+        <item>CLAY CITY</item>
+        <item>DABASO</item>
+        <item>DADAAB</item>
+        <item>DADAJA BULLA</item>
+        <item>DALALEKUTUK</item>
+        <item>DAMAJALE</item>
+        <item>DANABA</item>
+        <item>DANDORA AREA I</item>
+        <item>DANDORA AREA II</item>
+        <item>DANDORA AREA III</item>
+        <item>DANDORA AREA IV</item>
+        <item>DANDU</item>
+        <item>DANYERE</item>
+        <item>DEDAN KIMATHI</item>
+        <item>DEKAHARIA</item>
+        <item>DELLA</item>
+        <item>DERKHALE</item>
+        <item>DERTU</item>
+        <item>DIIF</item>
+        <item>DUKANA</item>
+        <item>DUNDORI</item>
+        <item>DZOMBO</item>
+        <item>EAST ASEMBO</item>
+        <item>EAST GEM</item>
+        <item>EAST GEM</item>
+        <item>EAST KABRAS</item>
+        <item>EAST KAMAGAK</item>
+        <item>EAST KAMAGAMBO</item>
+        <item>EAST KANO-WAWIDHI</item>
+        <item>EAST KANYAMKAGO</item>
+        <item>EAST SANG ALO</item>
+        <item>EAST SEME</item>
+        <item>EAST UGENYA</item>
+        <item>EAST WANGA</item>
+        <item>EASTLEIGH NORTH</item>
+        <item>EASTLEIGH SOUTH</item>
+        <item>EKALAKALA</item>
+        <item>EKERENYO</item>
+        <item>EL-BARTA</item>
+        <item>ELBEN</item>
+        <item>ELBURGON</item>
+        <item>ELDAS</item>
+        <item>ELEMENTAITA</item>
+        <item>ELGON</item>
+        <item>ELNUR-TULA TULA</item>
+        <item>ELUGULU</item>
+        <item>ELWAK NORTH</item>
+        <item>ELWAK SOUTH</item>
+        <item>EMABUNGO</item>
+        <item>EMALI-MULALA</item>
+        <item>EMBAKASI</item>
+        <item>EMBOBUT-EMBULOT</item>
+        <item>EMBOMOS</item>
+        <item>EMINING</item>
+        <item>EMSOO</item>
+        <item>ENDAU-MALALANI</item>
+        <item>ENDEBESS</item>
+        <item>ENDO</item>
+        <item>ENDUGH</item>
+        <item>ENGINEER</item>
+        <item>ENTONET-LENKISM</item>
+        <item>ESISE</item>
+        <item>ETENJE</item>
+        <item>EVURORE</item>
+        <item>EWALEL-CHAPCHAP</item>
+        <item>EWUASO OO NKIDONG I</item>
+        <item>FAFI</item>
+        <item>FAZA</item>
+        <item>FINO</item>
+        <item>FLAMINGO</item>
+        <item>FRERE TOWN</item>
+        <item>GACHUBA</item>
+        <item>GAICHANJIRU</item>
+        <item>GAKAWA</item>
+        <item>GALBET</item>
+        <item>GAMBATO BONGWE</item>
+        <item>GANDA</item>
+        <item>GANGA</item>
+        <item>GANYURE-WAGALLA</item>
+        <item>GANZE</item>
+        <item>GARASHI</item>
+        <item>GARBA TULLA</item>
+        <item>GARSEN CENTRAL</item>
+        <item>GARSEN NORTH</item>
+        <item>GARSEN SOUTH</item>
+        <item>GARSEN WEST</item>
+        <item>GATANGA</item>
+        <item>GATARAKWA</item>
+        <item>GATHANJI</item>
+        <item>GATHARA</item>
+        <item>GATHIGIRIRI</item>
+        <item>GATIMU</item>
+        <item>GATINA</item>
+        <item>GATITU-MURUGURU</item>
+        <item>GATONGORA</item>
+        <item>GATUANYAGA</item>
+        <item>GATUNGA</item>
+        <item>GATURI NORTH</item>
+        <item>GATURI SOUTH</item>
+        <item>GATURI</item>
+        <item>GEMBE</item>
+        <item>GESIMA</item>
+        <item>GESUSU</item>
+        <item>GETA</item>
+        <item>GETENGA</item>
+        <item>GIKONDI</item>
+        <item>GILGIL</item>
+        <item>GISAMBAI</item>
+        <item>GITARU</item>
+        <item>GITHABAI</item>
+        <item>GITHER</item>
+        <item>GITHIGA</item>
+        <item>GITHIGA</item>
+        <item>GITHIORO</item>
+        <item>GITHOBOKONI</item>
+        <item>GITHUNGURI</item>
+        <item>GITHURAI</item>
+        <item>GITOTHUA</item>
+        <item>GITUAMBA</item>
+        <item>GITUGI</item>
+        <item>GOD JOPE</item>
+        <item>GODOMA</item>
+        <item>GOKEHARAKA-GETAMBWEGA</item>
+        <item>GOLBO</item>
+        <item>GONGONI</item>
+        <item>GOREALE</item>
+        <item>GOT KACHOLA</item>
+        <item>GUBA</item>
+        <item>GURAR</item>
+        <item>GUTICHA</item>
+        <item>GWASSI NORTH</item>
+        <item>GWASSI SOUTH</item>
+        <item>HABASSWEIN</item>
+        <item>HADADO-ATHIBOHOL</item>
+        <item>HARAMBEE</item>
+        <item>HEILLU-MANYATTA</item>
+        <item>HELLSGATE</item>
+        <item>HINDI</item>
+        <item>HIRIMANI</item>
+        <item>HOMA BAY ARUJO</item>
+        <item>HOMA BAY CENTRAL</item>
+        <item>HOMA BAY EAST</item>
+        <item>HOMA BAY WEST</item>
+        <item>HONGWE</item>
+        <item>HOSPITAL</item>
+        <item>HOSPITAL</item>
+        <item>HOSPITAL</item>
+        <item>HULUGHO</item>
+        <item>HURUMA</item>
+        <item>HURUMA</item>
+        <item>IBENO</item>
+        <item>IBRAHIM URE</item>
+        <item>ICHAGAKI</item>
+        <item>ICHUNI</item>
+        <item>IDAKHO CENTRAL</item>
+        <item>IDAKHO EAST</item>
+        <item>IDAKHO NORTH</item>
+        <item>IDAKHO SOUTH</item>
+        <item>IFTIN</item>
+        <item>IGAMBANG OMBE</item>
+        <item>IGEMBE EAST</item>
+        <item>IGOJI EAST</item>
+        <item>IGOJI WEST</item>
+        <item>IGWAMITI</item>
+        <item>IICHAMUS</item>
+        <item>IIKERIN</item>
+        <item>IJARA</item>
+        <item>IKANGA-KYATUNE</item>
+        <item>IKINU</item>
+        <item>IKOMBE</item>
+        <item>IKUTHA</item>
+        <item>ILDAMAT</item>
+        <item>ILDAMAT</item>
+        <item>ILIMA</item>
+        <item>ILLERET</item>
+        <item>ILMOTIOOK</item>
+        <item>ILOODOKILANI</item>
+        <item>IMARA DAIMA</item>
+        <item>IMARORO</item>
+        <item>IMBRIKANI-ESELELNKEI</item>
+        <item>INGOSTE-MATIHA</item>
+        <item>INOI</item>
+        <item>IRIAINI</item>
+        <item>IRIA-INI</item>
+        <item>ISIBANIA</item>
+        <item>ISUKHA CENTRAL</item>
+        <item>ISUKHA EAST</item>
+        <item>ISUKHA NORTH</item>
+        <item>ISUKHA SOUTH</item>
+        <item>ISUKHA WEST</item>
+        <item>ITHANGA</item>
+        <item>ITHIRU</item>
+        <item>ITIBO</item>
+        <item>IVINGONI-NZAMBANI</item>
+        <item>JARAJARA</item>
+        <item>JARAJILA</item>
+        <item>JARIBUNI</item>
+        <item>JEPKOYAI</item>
+        <item>JILORE</item>
+        <item>JOMVU KUU</item>
+        <item>JUJA</item>
+        <item>JUNDA</item>
+        <item>JUNJU</item>
+        <item>KAAGARI NORTH</item>
+        <item>KAAGARI SOUTH</item>
+        <item>KAALENG-KAIKOR</item>
+        <item>KABARE</item>
+        <item>KABARNET</item>
+        <item>KABARTONJO</item>
+        <item>KABARU</item>
+        <item>KABATINI</item>
+        <item>KABAZI</item>
+        <item>KABETE</item>
+        <item>KABIANGA</item>
+        <item>KABIEMIT</item>
+        <item>KABIRO</item>
+        <item>KABISAGA</item>
+        <item>KABIYET</item>
+        <item>KABONDO EAST</item>
+        <item>KABONDO WEST</item>
+        <item>KABONYO-KANYAGWAI</item>
+        <item>KABOUCH NORTH</item>
+        <item>KABUCHAI-CHWELE</item>
+        <item>KABULA</item>
+        <item>KABUOCH SOUTH/PALA</item>
+        <item>KABWARENG</item>
+        <item>KACHIENG </item>
+        <item>KADZANDANI</item>
+        <item>KAERIS</item>
+        <item>KAGUNDU-INI</item>
+        <item>KAHAWA WENDANI</item>
+        <item>KAHAWA WEST</item>
+        <item>KAHAWA</item>
+        <item>KAHAWA-SUKARI</item>
+        <item>KAHUMBU</item>
+        <item>KAIMBAGA</item>
+        <item>KAJULU</item>
+        <item>KAKRAO</item>
+        <item>KAKSINGIRI WEST</item>
+        <item>KAKUMA</item>
+        <item>KAKUYUNI</item>
+        <item>KAKUZI-MITUBIRI</item>
+        <item>KALAMA</item>
+        <item>KALAPATA</item>
+        <item>KALAWA</item>
+        <item>KALER</item>
+        <item>KALIMONI</item>
+        <item>KALOBEYEI</item>
+        <item>KALOKOL</item>
+        <item>KALOLENI</item>
+        <item>KALOLENI</item>
+        <item>KAMACHARIA</item>
+        <item>KAMAGUT</item>
+        <item>KAMAHUHU</item>
+        <item>KAMAKWA-MUKARO</item>
+        <item>KAMARA</item>
+        <item>KAMARINY</item>
+        <item>KAMASIAN</item>
+        <item>KAMBE/RIBE</item>
+        <item>KAMBITI</item>
+        <item>KAMBURU</item>
+        <item>KAMENU</item>
+        <item>KAMERA</item>
+        <item>KAMUKUYWA</item>
+        <item>KANAMKEMER</item>
+        <item>KANGAI</item>
+        <item>KANGARI</item>
+        <item>KANG ATOTHA</item>
+        <item>KANGEMI</item>
+        <item>KANGETA</item>
+        <item>KANGUNDO CENTRAL</item>
+        <item>KANGUNDO EAST</item>
+        <item>KANGUNDO NORTH</item>
+        <item>KANGUNDO WEST</item>
+        <item>KANJUIRI RANGE</item>
+        <item>KANUNI</item>
+        <item>KANYADOTO</item>
+        <item>KANYALUO</item>
+        <item>KANYAMWA KOLOGI</item>
+        <item>KANYAMWA KOSEWE</item>
+        <item>KANYANGI</item>
+        <item>KANYASA</item>
+        <item>KANYEKINI</item>
+        <item>KANYENYA-INI</item>
+        <item>KANYIKELA</item>
+        <item>KANZIKO</item>
+        <item>KAPCHEMUTWA</item>
+        <item>KAPCHOK</item>
+        <item>KAPCHORUA</item>
+        <item>KAPEDO-NAPEITOM</item>
+        <item>KAPENGURIA</item>
+        <item>KAPKANGANI</item>
+        <item>KAPKATENY</item>
+        <item>KAPKATET</item>
+        <item>KAPKUGERWET</item>
+        <item>KAPKURES</item>
+        <item>KAPKURES</item>
+        <item>KAPLAMAI</item>
+        <item>KAPLELARTET</item>
+        <item>KAPLETUNDO</item>
+        <item>KAPOMBOI</item>
+        <item>KAPROPITA</item>
+        <item>KAPSABET</item>
+        <item>KAPSAOS</item>
+        <item>KAPSAOS</item>
+        <item>KAPSASIAN</item>
+        <item>KAPSIMWOTWO</item>
+        <item>KAPSOIT</item>
+        <item>KAPSOWAR</item>
+        <item>KAPSOYA</item>
+        <item>KAPSUSER</item>
+        <item>KAPTAGAT</item>
+        <item>KAPTAMA</item>
+        <item>KAPTARAKWA</item>
+        <item>KAPTEL-KAMOIYWO</item>
+        <item>KAPTEMBWO</item>
+        <item>KAPTUMO-KABOI</item>
+        <item>KAPUTIEI NORTH</item>
+        <item>KAPUTIR</item>
+        <item>KAPYEGO</item>
+        <item>KARAI</item>
+        <item>KARAMA</item>
+        <item>KARARE</item>
+        <item>KARATINA TOWN</item>
+        <item>KARAU</item>
+        <item>KAREN</item>
+        <item>KARGI-SOUTH HORR</item>
+        <item>KARIARA</item>
+        <item>KARIMA</item>
+        <item>KARINGANI</item>
+        <item>KARIOBANGI NORTH</item>
+        <item>KARIOBANGI SOUTH</item>
+        <item>KARITI</item>
+        <item>KARUMANDI</item>
+        <item>KARUNA-MEIBEKI</item>
+        <item>KARURA</item>
+        <item>KARURI</item>
+        <item>KASARANI</item>
+        <item>KASEI</item>
+        <item>KASEMENI</item>
+        <item>KASGUNGA</item>
+        <item>KASIGAU</item>
+        <item>KASIKEU</item>
+        <item>KATANGI</item>
+        <item>KATHIANI CENTRAL</item>
+        <item>KATHONZWENI</item>
+        <item>KATILIA</item>
+        <item>KATILU</item>
+        <item>KAUWI</item>
+        <item>KAWANGARE</item>
+        <item>KAYAFUNGO</item>
+        <item>KAYOLE CENTRAL</item>
+        <item>KAYOLE NORTH</item>
+        <item>KAYOLE SOUTH</item>
+        <item>KEDOWA/KIMUGUL</item>
+        <item>KEE</item>
+        <item>KEEKONYOKIE</item>
+        <item>KEEKONYOKIE</item>
+        <item>KEGOGI</item>
+        <item>KEIYO</item>
+        <item>KEMBU</item>
+        <item>KEMELOI-MARABA</item>
+        <item>KENDU BAY TOWN</item>
+        <item>KENYAWA-POKA</item>
+        <item>KERINGET</item>
+        <item>KERIO DELTA</item>
+        <item>KERUGOYA</item>
+        <item>KEUMBU</item>
+        <item>KEYIAN</item>
+        <item>KHALABA</item>
+        <item>KHALABA</item>
+        <item>KHALALIO</item>
+        <item>KHASOKO</item>
+        <item>KHOLERA</item>
+        <item>KHOROF-HARAR</item>
+        <item>KIABONYORU</item>
+        <item>KIAGU</item>
+        <item>KIAMAIKO</item>
+        <item>KIAMAINA</item>
+        <item>KIAMBERE</item>
+        <item>KIAMOKAMA</item>
+        <item>KIAMWANGI</item>
+        <item>KIANJAI</item>
+        <item>KIBARANI</item>
+        <item>KIBAUNI</item>
+        <item>KIBINGEI</item>
+        <item>KIBIRI</item>
+        <item>KIBIRICHIA</item>
+        <item>KIBISH</item>
+        <item>KIEGOI-ANTUBOCHIU</item>
+        <item>KIGANJO/MATHARI</item>
+        <item>KIGANJO</item>
+        <item>KIGUMO</item>
+        <item>KIHARA</item>
+        <item>KIHINGO</item>
+        <item>KIHUMBU-INI</item>
+        <item>KIINE</item>
+        <item>KIIRAU-NAARI</item>
+        <item>KIJABE</item>
+        <item>KIKUMBULYU NORTH</item>
+        <item>KIKUMBULYU SOUTH</item>
+        <item>KIKUYU</item>
+        <item>KILELESHWA</item>
+        <item>KILGORIS CENTRAL</item>
+        <item>KILIBWONI</item>
+        <item>KILIMANI</item>
+        <item>KILUNGU</item>
+        <item>KILWEHIRI</item>
+        <item>KIMA KIU-KALANZONI</item>
+        <item>KIMAETI</item>
+        <item>KIMANA</item>
+        <item>KIMILILI</item>
+        <item>KIMININI</item>
+        <item>KIMINTET</item>
+        <item>KIMORORI-WEMPA</item>
+        <item>KIMULOT</item>
+        <item>KIMUMU</item>
+        <item>KINAKOMBA</item>
+        <item>KINALE</item>
+        <item>KINANGO</item>
+        <item>KINANIE></item>
+        <item>KINGANDOLE</item>
+        <item>KINGUCHWA</item>
+        <item>KINNA</item>
+        <item>KINONDO</item>
+        <item>KINOO</item>
+        <item>KINYONA</item>
+        <item>KINYORO</item>
+        <item>KIOGORO</item>
+        <item>KIOMO-KYETHANI</item>
+        <item>KIPCHEBOR</item>
+        <item>KIPCHIMCHIM</item>
+        <item>KIPEVU</item>
+        <item>KIPINI EAST</item>
+        <item>KIPINI WEST</item>
+        <item>KIPIPIRI</item>
+        <item>KIPKAREN</item>
+        <item>KIPKELION</item>
+        <item>KIPKENYO</item>
+        <item>KIPLOMBE</item>
+        <item>KIPRERES</item>
+        <item>KIPSOMBA</item>
+        <item>KIPSONOI</item>
+        <item>KIPTAGICH</item>
+        <item>KIPTORORO</item>
+        <item>KIPTUIYA</item>
+        <item>KIRIMARI</item>
+        <item>KIRIMUKUYU</item>
+        <item>KIRITTA</item>
+        <item>KIRU</item>
+        <item>KISA CENTRAL</item>
+        <item>KISA EAST</item>
+        <item>KISA NORTH</item>
+        <item>KISA WEST</item>
+        <item>KISANANA</item>
+        <item>KISASI</item>
+        <item>KISIARA</item>
+        <item>KISII CENTRAL</item>
+        <item>KISIMA</item>
+        <item>KISUMU NORTH</item>
+        <item>KITENGELA</item>
+        <item>KITETA-KISAU</item>
+        <item>KITHIMANI</item>
+        <item>KITHIMU</item>
+        <item>KITHUNGO-KITUNDU</item>
+        <item>KITISE-KITHUKI</item>
+        <item>KITISURU</item>
+        <item>KITUTU CENTRAL</item>
+        <item>KIUNGA</item>
+        <item>KIUU</item>
+        <item>KIVAA</item>
+        <item>KIVOU</item>
+        <item>KIVUMBUNI</item>
+        <item>KIWAWA</item>
+        <item>KOBUJOI</item>
+        <item>KOBURA</item>
+        <item>KOCHIA</item>
+        <item>KODICH</item>
+        <item>KOIBATEK</item>
+        <item>KOJWACH</item>
+        <item>KOKWANYO-KAKELO</item>
+        <item>KOLA</item>
+        <item>KOLOWA</item>
+        <item>KOLWA CENTRAL</item>
+        <item>KOLWA EAST</item>
+        <item>KOMAROCK</item>
+        <item>KOMOTHAI</item>
+        <item>KONDELE</item>
+        <item>KONG ASIS</item>
+        <item>KONGONI</item>
+        <item>KONGOWEA</item>
+        <item>KONYU</item>
+        <item>KOROGOCHO</item>
+        <item>KORONDILE</item>
+        <item>KORR-NGURUNIT</item>
+        <item>KOSIRAI</item>
+        <item>KOTARUK-LOBEI</item>
+        <item>KOYO/NDURIO</item>
+        <item>KOYONZO</item>
+        <item>KUBO SOUTH</item>
+        <item>KUINET-KAPSUSWA</item>
+        <item>KUKU</item>
+        <item>KUNYAK</item>
+        <item>KURGUNG-SURUNGAI</item>
+        <item>KUTULO</item>
+        <item>KWA NJENGA</item>
+        <item>KWA REUBEN</item>
+        <item>KWA</item>
+        <item>KWABWAI</item>
+        <item>KWAMUTONGA-KITHUMULA</item>
+        <item>KWANZA</item>
+        <item>KWARE</item>
+        <item>KWAVONZA-YATTA</item>
+        <item>KYANGWITHYA EAST</item>
+        <item>KYANGWITHYA WEST</item>
+        <item>KYELENI</item>
+        <item>KYENI NORTH</item>
+        <item>KYENI SOUTH</item>
+        <item>KYOME-THAANA</item>
+        <item>KYUSO</item>
+        <item>LABISGALE</item>
+        <item>LAFEY</item>
+        <item>LAGBOGHOI SOUTH</item>
+        <item>LAGSURE</item>
+        <item>LAINI SABA</item>
+        <item>LAISAMIS</item>
+        <item>LAKE VIEW</item>
+        <item>LAKEZONE</item>
+        <item>LAKOLEY SOUTH-BASIR</item>
+        <item>LAMBWE</item>
+        <item>LANDIMAWE</item>
+        <item>LANET-UMOJA</item>
+        <item>LANGAS</item>
+        <item>LAPUR</item>
+        <item>LARE</item>
+        <item>LARI-KIRENGA</item>
+        <item>LELAN</item>
+        <item>LELAN</item>
+        <item>LELMOKO-NGECHEK</item>
+        <item>LEMBUS KWEN</item>
+        <item>LEMBUS</item>
+        <item>LEMBUS-PERKERRA</item>
+        <item>LESHAU-PONDO</item>
+        <item>LETEA</item>
+        <item>LIBEHIA</item>
+        <item>LIBOI</item>
+        <item>LIKONI</item>
+        <item>LIKUYANI</item>
+        <item>LIMURU CENTRAL</item>
+        <item>LIMURU EAST</item>
+        <item>LINDI</item>
+        <item>LITEIN</item>
+        <item>LOBOKAT</item>
+        <item>LODOKEJEK</item>
+        <item>LODWAR TOWNSHIP</item>
+        <item>LOGLOGO</item>
+        <item>LOIMA</item>
+        <item>LOITA</item>
+        <item>LOIYAGALANI</item>
+        <item>LOIYAMOROK</item>
+        <item>LOKICHAR</item>
+        <item>LOKICHOGGIO</item>
+        <item>LOKIRIAMA-LORENGIPPI</item>
+        <item>LOKORI-KOCHODIN</item>
+        <item>LOLGORIAN</item>
+        <item>LOMUT</item>
+        <item>LONDIANI</item>
+        <item>LONDON</item>
+        <item>LONGISA</item>
+        <item>LOOSUK</item>
+        <item>LOPUR</item>
+        <item>LOWER KAEWA-KAANI</item>
+        <item>LOWER SAVANNA</item>
+        <item>LUANDA SOUTH</item>
+        <item>LUANDA TOWNSHIP</item>
+        <item>LUCKY SUMMER</item>
+        <item>LUGAGA-WAMULUMA</item>
+        <item>LUGARI</item>
+        <item>LUMAKANDA</item>
+        <item>LUSHEYA-LUBINU</item>
+        <item>LWANDANYI</item>
+        <item>LWANDETI</item>
+        <item>LYADUYWA-IZAVA</item>
+        <item>MAALAMIN</item>
+        <item>MABATINI</item>
+        <item>MACALDER-KANYARWANDA</item>
+        <item>MACHAKOS CENTRAL</item>
+        <item>MACKINON ROAD</item>
+        <item>MADOGO</item>
+        <item>MAEILLA</item>
+        <item>MAENI</item>
+        <item>MAGADI</item>
+        <item>MAGARINI</item>
+        <item>MAGENCHE</item>
+        <item>MAGOGONI</item>
+        <item>MAGOMBO</item>
+        <item>MAGUMONI</item>
+        <item>MAGUMU</item>
+        <item>MAGUTU</item>
+        <item>MAGWAGWA</item>
+        <item>MAHIAKALO</item>
+        <item>MAHIGA</item>
+        <item>MAHOO</item>
+        <item>MAI MAHIU</item>
+        <item>MAIKONA</item>
+        <item>MAJENGO</item>
+        <item>MAJI MOTO-NAROOSURA</item>
+        <item>MAJOGE BASI</item>
+        <item>MAKIMA</item>
+        <item>MAKINA</item>
+        <item>MAKINDU</item>
+        <item>MAKONGENI</item>
+        <item>MAKUTANO</item>
+        <item>MAKUTANO-MWALA</item>
+        <item>MAKUYU</item>
+        <item>MALABA CENTRAL</item>
+        <item>MALABA NORTH</item>
+        <item>MALABA SOUTH</item>
+        <item>MALAHA-ISONGO-MAKUNGA</item>
+        <item>MALAKISI-SOUTH KULISIRU</item>
+        <item>MALEWA WEST</item>
+        <item>MALINDI TOWN</item>
+        <item>MALKAGUFU</item>
+        <item>MALKAMARI</item>
+        <item>MANDA-SHIVANGA</item>
+        <item>MANGA</item>
+        <item>MANG U</item>
+        <item>MANYATTA B</item>
+        <item>MARA</item>
+        <item>MARACHI CENTRAL</item>
+        <item>MARACHI EAST</item>
+        <item>MARACHI NORTH</item>
+        <item>MARACHI WEST</item>
+        <item>MARAFA</item>
+        <item>MARAKA</item>
+        <item>MARAKARU-TUUTI</item>
+        <item>MARALAL</item>
+        <item>MARAMA CENTRAL</item>
+        <item>MARAMA NORTH</item>
+        <item>MARAMA SOUTH</item>
+        <item>MARAMA WEST</item>
+        <item>MARANI</item>
+        <item>MARENYO-SHIANDA</item>
+        <item>MARIAKANI</item>
+        <item>MARIANI</item>
+        <item>MARIASHONI</item>
+        <item>MARIGAT</item>
+        <item>MARIMANTI</item>
+        <item>MARINGO-HAMZA</item>
+        <item>MARKET MILIMANI</item>
+        <item>MARMANET</item>
+        <item>MAROTHILE</item>
+        <item>MARSABIT CENTRAL</item>
+        <item>MARUNGU</item>
+        <item>MASABA</item>
+        <item>MASALANI</item>
+        <item>MASIGE EAST</item>
+        <item>MASIGE WEST</item>
+        <item>MASII</item>
+        <item>MASIMBA</item>
+        <item>MASINGA CENTRAL</item>
+        <item>MASOGO-NYANG OMA</item>
+        <item>MASONGALENI</item>
+        <item>MASOOL</item>
+        <item>MATA</item>
+        <item>MATAPATO NORTH</item>
+        <item>MATAPATO SOUTH</item>
+        <item>MATAYOS SOUTH</item>
+        <item>MATHARE NORTH</item>
+        <item>MATINYANI</item>
+        <item>MATISI</item>
+        <item>MATOPENI-SPRING VALLEY</item>
+        <item>MATSANGONI</item>
+        <item>MATULO</item>
+        <item>MATUMBEI</item>
+        <item>MATUNGULU EAST</item>
+        <item>MATUNGULU NORTH</item>
+        <item>MATUNGULU WEST</item>
+        <item>MATUU</item>
+        <item>MAU NAROK</item>
+        <item>MAUA</item>
+        <item>MAUCHE</item>
+        <item>MAUTUMA</item>
+        <item>MAVINDINI</item>
+        <item>MAVURIA</item>
+        <item>MAYENJE</item>
+        <item>MAYONI</item>
+        <item>MBAKALO</item>
+        <item>MBARUK-EBURU</item>
+        <item>MBETI NORTH</item>
+        <item>MBETI SOUTH</item>
+        <item>MBEU</item>
+        <item>MBIRI</item>
+        <item>MBITINI</item>
+        <item>MBITINI</item>
+        <item>MBIUNI</item>
+        <item>MBOGHONI</item>
+        <item>MBOLOLO</item>
+        <item>MBOONI</item>
+        <item>MEGUN</item>
+        <item>MEKENENE</item>
+        <item>MELELO</item>
+        <item>MELILI</item>
+        <item>MENENGAI WEST</item>
+        <item>MENENGAI</item>
+        <item>MERIGI</item>
+        <item>METKEI</item>
+        <item>MFANGANO ISLAND</item>
+        <item>MIAMBANI</item>
+        <item>MIGOSI</item>
+        <item>MIGWANI</item>
+        <item>MIHANGO</item>
+        <item>MIHUU</item>
+        <item>MIKINDANI</item>
+        <item>MIKINDUNI</item>
+        <item>MIKINDURI</item>
+        <item>MILIMA</item>
+        <item>MIRANGINE</item>
+        <item>MIRITINI</item>
+        <item>MISIKHU</item>
+        <item>MITAMBONI</item>
+        <item>MITHERU</item>
+        <item>MITUNGUU</item>
+        <item>MIWANI</item>
+        <item>MJAMBERE</item>
+        <item>MJI WA KALE/MAKADARA</item>
+        <item>MKOMANI</item>
+        <item>MKOMANI</item>
+        <item>MKONGANI</item>
+        <item>MKUNUMBI</item>
+        <item>MLANGO KUBWA</item>
+        <item>MNAGEI</item>
+        <item>MNARANI</item>
+        <item>MOCHONGOI</item>
+        <item>MODOGASHE</item>
+        <item>MOGOGOSIEK</item>
+        <item>MOGONDO</item>
+        <item>MOGOTIO</item>
+        <item>MOIBEN</item>
+        <item>MOIBEN-KUSERWO</item>
+        <item>MOI S BRIDGE</item>
+        <item>MOKERERO</item>
+        <item>MOLO</item>
+        <item>MONYERERO</item>
+        <item>MOSIRO</item>
+        <item>MOSIRO</item>
+        <item>MOSOP</item>
+        <item>MOTICHO</item>
+        <item>MOTOSIET</item>
+        <item>MOUNTAIN VIEW</item>
+        <item>MOWLEM</item>
+        <item>MOYALE TOWNSHIP</item>
+        <item>MTEPENI</item>
+        <item>MTITO ANDEI</item>
+        <item>MTONGWE</item>
+        <item>MTOPANGA</item>
+        <item>MUA</item>
+        <item>MUCHATHA</item>
+        <item>MUGOGODO EAST</item>
+        <item>MUGOGODO WEST</item>
+        <item>MUGOIRI</item>
+        <item>MUGUGA</item>
+        <item>MUGUMO-INI</item>
+        <item>MUGUMO-INI</item>
+        <item>MUGUNDA</item>
+        <item>MUGURU</item>
+        <item>MUGWE</item>
+        <item>MUHORONI KORU</item>
+        <item>MUHUDU</item>
+        <item>MUHURU</item>
+        <item>MUI</item>
+        <item>MUKAA</item>
+        <item>MUKOTHIMA</item>
+        <item>MUKURE</item>
+        <item>MUKURWE-INI EAST</item>
+        <item>MUKURWE-INI WEST</item>
+        <item>MUKUTANI</item>
+        <item>MUKUYUNI</item>
+        <item>MULANGO</item>
+        <item>MUMBERES-MAJI MAZURI</item>
+        <item>MUMBUNI NORTH</item>
+        <item>MUMIAS CENTRAL</item>
+        <item>MUMIAS NORTH</item>
+        <item>MUMINJI</item>
+        <item>MUMONI</item>
+        <item>MUNGOMA</item>
+        <item>MUNICIPALITY></item>
+        <item>MURARANDIA</item>
+        <item>MURERA</item>
+        <item>MURHANDA</item>
+        <item>MURINDAT</item>
+        <item>MURINDUKO</item>
+        <item>MURUKA</item>
+        <item>MURUNGARU</item>
+        <item>MUSANDA</item>
+        <item>MUSIKOMA</item>
+        <item>MUTARAKWA</item>
+        <item>MUTHA</item>
+        <item>MUTHAMBI</item>
+        <item>MUTHARA</item>
+        <item>MUTHESYA</item>
+        <item>MUTHETHENI</item>
+        <item>MUTHITHI</item>
+        <item>MUTHWANI</item>
+        <item>MUTIRA</item>
+        <item>MUTITHI</item>
+        <item>MUTITU-KALIKU</item>
+        <item>MUTITUNI</item>
+        <item>MUTOMO</item>
+        <item>MUTONGONI</item>
+        <item>MUTU-INI</item>
+        <item>MUVAU-KIKUMINI</item>
+        <item>MUVUTI-KIIMA-KIMWE</item>
+        <item>MWAKIRUNGE</item>
+        <item>MWANAMWINGA</item>
+        <item>MWANDA-MGANGE</item>
+        <item>MWANGATHIA</item>
+        <item>MWARAKAYA</item>
+        <item>MWATATE</item>
+        <item>MWAVUMBO</item>
+        <item>MWAWESA</item>
+        <item>MWEA</item>
+        <item>MWEIGA</item>
+        <item>MWERENI</item>
+        <item>MWIBONA</item>
+        <item>MWIHOKO</item>
+        <item>MWIKI</item>
+        <item>MWIKI</item>
+        <item>MWIMBI</item>
+        <item>MWIYOGO-ENDARASHA</item>
+        <item>NAATHU</item>
+        <item>NABISWA</item>
+        <item>NACHOLA</item>
+        <item>NACHU</item>
+        <item>NAIKARRA</item>
+        <item>NAIROBI CENTRAL</item>
+        <item>NAIROBI SOUTH</item>
+        <item>NAIROBI WEST</item>
+        <item>NAITIRI-KABUYEFWE</item>
+        <item>NAIVASHA EAST</item>
+        <item>NAKALALE</item>
+        <item>NAKURU EAST</item>
+        <item>NAMAMALI</item>
+        <item>NAMBALE</item>
+        <item>NAMBOBOTO-NAMBUKU WARD</item>
+        <item>NAMWELA</item>
+        <item>NANAAM</item>
+        <item>NANDI HILLS</item>
+        <item>NANGINA</item>
+        <item>NANIGHI</item>
+        <item>NANYUKI</item>
+        <item>NAROK TOWN</item>
+        <item>NAROMORU-KIAMATHAGA</item>
+        <item>NDALANI</item>
+        <item>NDALAT</item>
+        <item>NDALU</item>
+        <item>NDANAI-ABOSI</item>
+        <item>NDARAWETA</item>
+        <item>NDARUGO</item>
+        <item>NDAVAYA</item>
+        <item>NDEIYA</item>
+        <item>NDENDERU</item>
+        <item>NDITHINI</item>
+        <item>NDIVISI</item>
+        <item>NDOTO</item>
+        <item>NDUMBERI</item>
+        <item>NEBOI</item>
+        <item>NESUIT</item>
+        <item>NGANDO</item>
+        <item>NGARA</item>
+        <item>NG ARARIA</item>
+        <item>NGARE MARA</item>
+        <item>NGARIAMA</item>
+        <item>NGECHA TIGONI</item>
+        <item>NGEI</item>
+        <item>NGENDA</item>
+        <item>NGENYILEL</item>
+        <item>NGERIA</item>
+        <item>NGEWA</item>
+        <item>NGINDA</item>
+        <item>NGINDA</item>
+        <item>NGOBIT</item>
+        <item>NGOLIA</item>
+        <item>NGOLIBA</item>
+        <item>NGOMENI</item>
+        <item>NGONG</item>
+        <item>NGUNI</item>
+        <item>NGUU-MASUMBA</item>
+        <item>NGUUMO</item>
+        <item>NGUUTANI</item>
+        <item>NJABANI-KIBURU</item>
+        <item>NJIA</item>
+        <item>NJIRU</item>
+        <item>NJORO</item>
+        <item>NJUKIINE</item>
+        <item>NKAIMURUNYA</item>
+        <item>NKARETA</item>
+        <item>NKOMO</item>
+        <item>NKONDI</item>
+        <item>NKUENE</item>
+        <item>NORTH ALEGO</item>
+        <item>NORTH EAST BUNYORE</item>
+        <item>NORTH GEM</item>
+        <item>NORTH HORR</item>
+        <item>NORTH KADEM</item>
+        <item>NORTH KAMAGAMBO</item>
+        <item>NORTH KANYAMKAGO</item>
+        <item>NORTH KARACHUONYO</item>
+        <item>NORTH KINANGOP</item>
+        <item>NORTH MARAGOLI</item>
+        <item>NORTH NYAKACH</item>
+        <item>NORTH SAKWA</item>
+        <item>NORTH SAKWA</item>
+        <item>NORTH SEME</item>
+        <item>NORTH UGENYA</item>
+        <item>NORTH UYOMA</item>
+        <item>NORTH WEST KISUMU</item>
+        <item>NTHAWA</item>
+        <item>NTIMA EAST</item>
+        <item>NTIMA WEST</item>
+        <item>NTIMARU EAST</item>
+        <item>NTIMARU WEST</item>
+        <item>NTUNENE</item>
+        <item>NUU</item>
+        <item>NYABASI EAST</item>
+        <item>NYABASI WEST</item>
+        <item>NYACHEKI</item>
+        <item>NYADHUNA</item>
+        <item>NYAKI EAST</item>
+        <item>NYAKI WEST</item>
+        <item>NYAKIO</item>
+        <item>NYAKOE</item>
+        <item>NYALENDA A</item>
+        <item>NYALENDA B</item>
+        <item>NYAMAIYA</item>
+        <item>NYAMASIBI</item>
+        <item>NYANDUMA</item>
+        <item>NYANGORES</item>
+        <item>NYANGUTI</item>
+        <item>NYANMOSENSE-KOMOSOKO</item>
+        <item>NYANSIONGO</item>
+        <item>NYATIEKO</item>
+        <item>NYAYO HIGHRISE</item>
+        <item>NYIRO</item>
+        <item>NYOTA</item>
+        <item>NZAMBANI</item>
+        <item>NZAUI-KILILI-KALAMBA</item>
+        <item>NZOIA</item>
+        <item>OBBU</item>
+        <item>OLDO-NYIRO</item>
+        <item>OLKARIA</item>
+        <item>OLKERI</item>
+        <item>OL LESSOS</item>
+        <item>OL-MORAN</item>
+        <item>OLOKURTO</item>
+        <item>OLOLMASANI</item>
+        <item>OLOLULUNG A</item>
+        <item>OLOOLUA</item>
+        <item>OLOOSIRKON-SHOLINKE</item>
+        <item>OLORROPIL</item>
+        <item>OLPOSIMORU</item>
+        <item>OMBEYI</item>
+        <item>ONGATA RONGAI</item>
+        <item>PANGANI</item>
+        <item>PARKLANDS-HIGHRIDGE</item>
+        <item>PIPELINE</item>
+        <item>PONGWE/KIKOKENI</item>
+        <item>PORRO</item>
+        <item>PUMA</item>
+        <item>PUMWANI</item>
+        <item>PURKO</item>
+        <item>RABAI/KISURUTINI</item>
+        <item>RACECOURSE</item>
+        <item>RAGANA-ORUBA</item>
+        <item>RAILWAYS</item>
+        <item>RAMISI</item>
+        <item>RAVINE</item>
+        <item>RHAMU DIMTU</item>
+        <item>RHAMU</item>
+        <item>RHODA</item>
+        <item>RIABAI</item>
+        <item>RIANA</item>
+        <item>RIBKWO</item>
+        <item>RIGOMA</item>
+        <item>RIRUTA</item>
+        <item>RIWO</item>
+        <item>ROMBO</item>
+        <item>RONGE</item>
+        <item>RONGENA-MANARET</item>
+        <item>ROYSAMBU</item>
+        <item>RUAI</item>
+        <item>RUCHU</item>
+        <item>RUGI</item>
+        <item>RUGURU</item>
+        <item>RUGURU-NGANDORI</item>
+        <item>RUIRU-RWAWERA</item>
+        <item>RUMA-KAKSINGIRI EAST</item>
+        <item>RUMURUTI TOWNSHIP</item>
+        <item>RURII</item>
+        <item>RURING U</item>
+        <item>RURUMA</item>
+        <item>RUSINGA ISLAND</item>
+        <item>RWARE</item>
+        <item>RWATHIA</item>
+        <item>SABAKI</item>
+        <item>SABENA</item>
+        <item>SACHO</item>
+        <item>SAGALA</item>
+        <item>SAGAMIAN</item>
+        <item>SAGANTE-JALDESA</item>
+        <item>SAGUTA MARMAR</item>
+        <item>SAIMOI-KIPSARAMAN</item>
+        <item>SAIMO-SOI</item>
+        <item>SAKA</item>
+        <item>SALA</item>
+        <item>SALAMA</item>
+        <item>SAMBIRIR</item>
+        <item>SAMETA-MOKWERERO</item>
+        <item>SANGAILU</item>
+        <item>SANGALO-KEBULONIK</item>
+        <item>SANGO</item>
+        <item>SANKURI</item>
+        <item>SARANG OMBE</item>
+        <item>SARMAN</item>
+        <item>SEGERA</item>
+        <item>SEGEROI-BARSOMBE</item>
+        <item>SEKERR</item>
+        <item>SENGWER</item>
+        <item>SENSI</item>
+        <item>SERGOIT</item>
+        <item>SERICHO</item>
+        <item>SHAABAB</item>
+        <item>SHAMAKHOKHO</item>
+        <item>SHAMATA</item>
+        <item>SHANKOE</item>
+        <item>SHANZU</item>
+        <item>SHAURI MOYO KALOLENI</item>
+        <item>SHELLA</item>
+        <item>SHELLA</item>
+        <item>SHEYWE</item>
+        <item>SHIKA ADABU</item>
+        <item>SHIMANZI/GANJONI</item>
+        <item>SHIMBIR FATUMA</item>
+        <item>SHIMO LA TEWA</item>
+        <item>SHINOYI-SHIKOMARI-ESUMEIYA</item>
+        <item>SHIRERE</item>
+        <item>SHIRU</item>
+        <item>SHIRUNGU-MUGAI</item>
+        <item>SIANA</item>
+        <item>SIAYA TOWNSHIP</item>
+        <item>SIBOTI</item>
+        <item>SIDINDI</item>
+        <item>SIGOMERE</item>
+        <item>SIGONA</item>
+        <item>SIGOR</item>
+        <item>SIGOWET</item>
+        <item>SIKHENDU</item>
+        <item>SILALE</item>
+        <item>SILIBWET TOWNSHIP</item>
+        <item>SIMAT-KAPSERET</item>
+        <item>SINGORWET</item>
+        <item>SINOKO</item>
+        <item>SINYERERE</item>
+        <item>SIONGIROI</item>
+        <item>SIRENDE</item>
+        <item>SIRIKWA</item>
+        <item>SITATUNGA</item>
+        <item>SITIKHO</item>
+        <item>SIYOI</item>
+        <item>SOGOO</item>
+        <item>SOIN</item>
+        <item>SOIN</item>
+        <item>SOKOKE</item>
+        <item>SOKONI</item>
+        <item>SOLAI</item>
+        <item>SOLIAT</item>
+        <item>SOLOLO</item>
+        <item>SONGHOR-SOBA</item>
+        <item>SONGOT</item>
+        <item>SOOK</item>
+        <item>SOSIAN</item>
+        <item>SOUTH BUKUSU</item>
+        <item>SOUTH C</item>
+        <item>SOUTH EAST ALEGO</item>
+        <item>SOUTH EAST NYAKACH</item>
+        <item>SOUTH GEM</item>
+        <item>SOUTH KABRAS</item>
+        <item>SOUTH KAMAGAMBO</item>
+        <item>SOUTH KANYAMKAGO</item>
+        <item>SOUTH KASIPUL</item>
+        <item>SOUTH MARAGOLI</item>
+        <item>SOUTH SAKWA</item>
+        <item>SOUTH SAKWA</item>
+        <item>SOUTH UYOMA</item>
+        <item>SOUTH WEST KISUMU</item>
+        <item>SOUTH WEST NYAKACH</item>
+        <item>SOY NORTH</item>
+        <item>SOY SOUTH</item>
+        <item>SOY</item>
+        <item>SOYSAMBU-MITUA</item>
+        <item>SUAM</item>
+        <item>SUBUKIA</item>
+        <item>SUNA CENTRAL</item>
+        <item>SUSWA</item>
+        <item>SYOKIMAU-MULOLONGO</item>
+        <item>TABAKA</item>
+        <item>TAGARE</item>
+        <item>TAKABA SOUTH</item>
+        <item>TAKABA</item>
+        <item>TALA</item>
+        <item>TAMBACH</item>
+        <item>TAMBUA</item>
+        <item>TANGULBEI-KOROSSI</item>
+        <item>TAPACH</item>
+        <item>TAPSAGOI</item>
+        <item>TARAKWA</item>
+        <item>TARBAJ</item>
+        <item>TEBERE</item>
+        <item>TEBESONIK</item>
+        <item>TEMBELIO</item>
+        <item>TENDENO-SORGET</item>
+        <item>TENGES</item>
+        <item>TERIK</item>
+        <item>TEZO</item>
+        <item>THANGATHA</item>
+        <item>THANGE</item>
+        <item>THARAKA</item>
+        <item>THEGU RIVER</item>
+        <item>THETA</item>
+        <item>THIBA</item>
+        <item>THINGITHU</item>
+        <item>TIGITHI</item>
+        <item>TIMAU</item>
+        <item>TIMBWANI</item>
+        <item>TINDERET</item>
+        <item>TINET</item>
+        <item>TING ANG A</item>
+        <item>TIRIOKO</item>
+        <item>TIWI</item>
+        <item>TONGAREN</item>
+        <item>TONONOKA</item>
+        <item>TOWNSHIP</item>
+        <item>TOWNSHIP</item>
+        <item>TOWNSHIP</item>
+        <item>TOWNSHIP</item>
+        <item>TOWNSHIP</item>
+        <item>TOWNSHIP</item>
+        <item>TOWNSHIP</item>
+        <item>TOWNSHIP</item>
+        <item>TOWNSHIP</item>
+        <item>TSEIKURU</item>
+        <item>TSIMBA GOLINI</item>
+        <item>TUDOR</item>
+        <item>TULIMANI</item>
+        <item>TULWET-CHIYAT</item>
+        <item>TURBI</item>
+        <item>TURI</item>
+        <item>TURKWEL</item>
+        <item>UGUNJA</item>
+        <item>UKIA</item>
+        <item>UKUNDA</item>
+        <item>UKWALA</item>
+        <item>UMANDE</item>
+        <item>UMOJA I</item>
+        <item>UMOJA II</item>
+        <item>UPPER KAEWA-IVETI</item>
+        <item>UPPER SAVANNA</item>
+        <item>URAN</item>
+        <item>USONGA</item>
+        <item>UTALII</item>
+        <item>UTAWALA</item>
+        <item>UTHIRU</item>
+        <item>UTHIRU-RUTHIMITU</item>
+        <item>VANGA</item>
+        <item>VISOI</item>
+        <item>VIWANDA</item>
+        <item>VIWANDANI</item>
+        <item>VOO-KYAMATU</item>
+        <item>WAA</item>
+        <item>WABERA</item>
+        <item>WABERI</item>
+        <item>WAGBERI</item>
+        <item>WAIA-KAKO</item>
+        <item>WAITA</item>
+        <item>WAITALUK</item>
+        <item>WAITHAKA</item>
+        <item>WALDAI</item>
+        <item>WAMAGANA</item>
+        <item>WAMBA EAST</item>
+        <item>WAMBA NORTH</item>
+        <item>WAMBA WEST</item>
+        <item>WAMUMU</item>
+        <item>WAMUNYU</item>
+        <item>WANG CHIENG</item>
+        <item>WANGU</item>
+        <item>WANJOHI</item>
+        <item>WARANQARA</item>
+        <item>WARGADUD</item>
+        <item>WARGADUD</item>
+        <item>WASEGES</item>
+        <item>WASEWETA II</item>
+        <item>WASIMBETE</item>
+        <item>WASO</item>
+        <item>WATAMU</item>
+        <item>WAYU</item>
+        <item>WEI WEI</item>
+        <item>WEMILABI</item>
+        <item>WERU</item>
+        <item>WERUGHA</item>
+        <item>WEST ALEGO</item>
+        <item>WEST ASEMBO</item>
+        <item>WEST BUKUSU</item>
+        <item>WEST BUNYORE</item>
+        <item>WEST GEM</item>
+        <item>WEST GEM</item>
+        <item>WEST KABRAS</item>
+        <item>WEST KAMAGAK</item>
+        <item>WEST KANYAMKAGO</item>
+        <item>WEST KARACHUONYO</item>
+        <item>WEST KASIPUL</item>
+        <item>WEST KISUMU</item>
+        <item>WEST NALONDO</item>
+        <item>WEST NYAKACH</item>
+        <item>WEST SABATIA</item>
+        <item>WEST SAKWA</item>
+        <item>WEST SAKWA</item>
+        <item>WEST SANG ALO</item>
+        <item>WEST SEME</item>
+        <item>WEST UGENYA</item>
+        <item>WEST UYOMA</item>
+        <item>WEST YIMBO</item>
+        <item>WIGA</item>
+        <item>WITEITHIE</item>
+        <item>WITU</item>
+        <item>WODANGA</item>
+        <item>WOODLEY-KENYATTA GOLF COURSE</item>
+        <item>WOTE</item>
+        <item>WUMINGU-KISHUSHE</item>
+        <item>WUNDANYI-MBALE</item>
+        <item>WUSI-KISHAMBA</item>
+        <item>YALA TOWNSHIP</item>
+        <item>YIMBO EAST</item>
+        <item>ZIMMERMAN</item>
+        <item>ZIWA LA NG OMBE</item>
+        <item>ZIWA</item>
+        <item>ZIWANI/KARIOKOR</item>
+        <item>ZOMBE-MWITIKA</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

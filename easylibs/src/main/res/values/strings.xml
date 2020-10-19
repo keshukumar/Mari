@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EasyDevelope</string>
+    // all fonts
+    <string name="roboto_light" translatable="false" >Roboto-Light.ttf</string>
+    <string name="roboto_regular" translatable="false" >Roboto-Light.ttf</string>
+    <string name="roboto_thin" translatable="false" >Roboto-Thin.ttf</string>
+    <string name="roboto_bold" translatable="false" >Roboto-Bold.ttf</string>
+    <string name="roboto_italic" translatable="false" >Roboto-Italic.ttf</string>
+    <string name="brust_script" translatable="false" >brush-script-mt.ttf</string>
+</resources>
